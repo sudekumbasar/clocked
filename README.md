@@ -65,3 +65,7 @@ Without an API key, set `CLOCKED_PROVIDER=fake` to run the server with scripted 
 ## Credits
 
 Built with [Claude Code](https://claude.com/claude-code). Map data © OpenStreetMap contributors. Test photos are from Wikimedia Commons under the licences listed in `testset/SOURCES_*.md`.
+
+## Copyright
+
+© 2026 Sude Kumbasar. All rights reserved. The code is shared to show the work; please ask before reusing it.
