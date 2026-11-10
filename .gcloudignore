@@ -1,0 +1,12 @@
+# Never upload these to Google Cloud: the API key, personal photos, local tools and caches.
+.env
+.env.*
+.git
+.tools
+.venv
+**/.venv
+**/node_modules
+**/__pycache__
+web/dist
+testset
+design-mockups

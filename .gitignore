@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Test photos are personal or third-party; labels.csv is tracked
+testset/photos/*
+!testset/photos/.gitkeep
+
+# Test run output (raw responses, results, cost log)
+testset/runs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Web
+node_modules/
+web/dist/
+
+# macOS
+.DS_Store
+
+# Local tools (downloaded binaries)
+.tools/
+
+# Design mockup pictures (contain test-set photos; not part of the app)
+design-mockups/
+
+# Personal working notes for Claude Code
+CLAUDE.local.md

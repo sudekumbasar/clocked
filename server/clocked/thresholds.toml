@@ -1,0 +1,10 @@
+# Confidence thresholds for the verification rules.
+# Starting strict; tuned on real photos at step 5 (PRODUCT.md, "Thresholds").
+# Confidence is a rough signal: text and location are the hard checks.
+
+[default]
+high = 0.85    # at or above, with all checks passing: AWARD
+medium = 0.50  # below this: REJECT; between medium and high: RETRY
+
+# Royal cyphers have no confidence threshold of their own: the candidate's object
+# text and the blind reading must both name the same cypher (verification.py).

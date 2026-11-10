@@ -1,0 +1,20 @@
+[project]
+name = "clocked-server"
+version = "0.1.0"
+description = "Recognition server for Clocked"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=1.0",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "pillow>=11.0",
+    "pillow-heif>=0.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "httpx>=0.27"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", ".."]

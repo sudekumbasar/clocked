@@ -1,0 +1,8 @@
+# Exact versions of the server's direct dependencies, as tested locally (see pyproject.toml).
+# Used by the Dockerfile so the hosted server runs what the tests ran.
+anthropic==1.11.0
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+pillow==12.3.0
+pillow-heif==1.8.0
